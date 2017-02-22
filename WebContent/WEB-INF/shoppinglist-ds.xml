@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <datasources>
+ 	<datasource jndi-name="java:jboss/datasources/shoppinglistDS" pool-name="shoppinglistDS" enabled="true" use-java-context="true">
+        <connection-url>jdbc:h2:tcp://localhost/~/test</connection-url>
+        <driver>h2</driver>
+        <security>
+            <user-name>sa</user-name>
+            <password></password>
+        </security>
+    </datasource> 	
+</datasources>
